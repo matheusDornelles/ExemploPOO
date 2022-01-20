@@ -4,7 +4,7 @@ namespace ExemploPOO.Models
     {
         public override void Creditar(double valor)
         {
-           this.saldo = valor;
+           base.saldo = valor;
         }
     }
 }
